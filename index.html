@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="icon" href="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/restaurante%20(2).png?v=1685938580713" />
+
+    <title>SABOR CONECTADO</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css" />
+    
+
+  </head>
+  <body>
+    
+    
+    
+    <!--CABEÇARIO-->
+
+    
+  <header>
+    
+    <h1 class="logo">Restaurante <span>SABOR CONECTADO</span></h1>
+    <nav>
+      <div class="overlay">
+        <div class="menu">
+          <ul>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+    <!--CARDAPIO-->
+
+
+  <div class="containe">
+    <ul class="list">
+      <li>
+        <div class="fundo_comida"> 
+
+          <h3>Pamonha</h3>
+
+          <div class="img">
+            <p class="descricao"> 200g de Pamonha, 100% natural, produzido a partir do milho verde in-natura com adição de sal, cubos de queijo coalho e finalizado com maçarico.</p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/pamonha.jpg?v=1685938578717" alt="uma pamonha">
+          </div>
+          <p class="preco">R$ 7.99</p>  
+
+        </div>
+      </li>
+
+      <li>
+        <div class="fundo_comida">
+          <h3>Canjica</h3>
+          
+          <div class="img">
+            <p class="descricao">150g de canjica de milho, cozida com leite, açúcar e castanhas. Finalizado com canela em pó e cravos-da-índia. </p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/canjica2.jpg?v=1685938573039" alt="Canjica"> 
+          </div>
+          <p class="preco">R$ 11,99 </p>
+        </div>
+      </li> 
+    
+      <li>
+        <div class="fundo_comida">
+          <h3>Cuscuz Marroquino</h3>
+
+          <div class="img">
+            <p class="descricao"> Massa de cuscuz a base de trigo, fervida no caldo de legumes, com adição de azeite de oliva, sal e pimenta-do-reino. Acompanha legumes, oleaginosas e damasco. Serve 4 pessoas.</p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/cuscuz.jpg?v=1685938574179" alt="Cuscuz chique">
+          </div>
+          
+          <p class="preco">R$ 89.90</p>
+        </div>
+             
+      </li>
+
+      <li>
+        <div class="fundo_comida">
+          <h3>Strogonoff</h3>
+
+          <div class="img">
+            <p class="descricao">Strogonoff de frango preparado no açafrão com pimenta e ervas, finalizado com coentro e
+              salsinha. Acomapanha arroz. Serve 2 pessoas </p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/strogonoff.jpg?v=1685938570805" alt="Strognoff"> <!-- < height="380px" alt="Strognoff"-->
+          </div>
+
+          <p class="preco">R$ 55.90</p>
+
+        </div>  
+      </li> 
+
+      <li>
+        <div class="fundo_comida">
+          <h3>Panqueca</h3>
+
+          <div class="img">
+            <p class="descricao">200g de panquecas americanas, servidas com mel orgânico, amoras, morangos e framboesas. Acompanha chantily. </p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/panqueca.jpg?v=1685938580183" alt="Panquecas com mel">
+          </div>
+
+          <p class="preco">R$ 10.99</p>
+        </div>
+          
+      </li>
+
+      <li>
+        <div class="fundo_comida">
+          <h3>Camusquim de Camarão</h3>
+
+          <div class="img">
+            <p class="descricao">Massa refogada no alho e azeite, com camarão temperado refogado no azeite de dendê e finalizado com cheiro verde. Serve 4 pessoas. </p>
+            <img src="https://cdn.glitch.global/c0383f55-1865-449d-8cb0-2ee95ad8119f/camusquim.jpg?v=1685938572032" alt="Camusquim"> <!--height="380px"-->
+          </div>
+
+          <p class="preco">R$ 118.99</p>
+        </div>
+          
+      </li>
+    </ul>
+  </div>
+    
+    
+    
+
+    <!--FORMULARIO-->
+    
+    
+    
+  <div class="container">
+    <header>
+      <h1 id="title" class="text-center">Faça o seu pedido!</h1>
+      <p id="description" class="description text-center">Preencha os campos a seguir para realizar o seu pedido:
+      </p>
+    </header>
+    <form id="survey-form" method="post" action="">
+      <div class="form-group">
+        <label id="name-label" for="name">Nome: <input class="texts" placeholder="Digite o seu nome" name="name"
+            id="name" type="text" required />
+        </label>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Telefone: <input class="texts" placeholder="Digite o seu número"
+            name="name" id="name" type="text" required />
+        </label>
+      </div>
+
+      <div class="form-group">
+        <p>
+          Selecione o(s) prato(s) desejado(s) e a quantidade:
+        </p>
+        <h2>Pratos Típicos</h2>
+        <div class="form-group">
+          <label><input name="Pamonha" value="prato1" type="checkbox" class="input-checkbox">Pamonha</label>
+          <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number" type="number"
+              min="0" max="50" class="form-control" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label><input name="Canjica" value="prato2" type="checkbox" class="input-checkbox">Canjica (Mungunzá)</label>
+          <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number" type="number"
+              min="0" max="50" class="form-control" />
+          </label>
+        </div>
+        <div class="form-group">
+          <label><input name="cuscuz" value="prato3" type="checkbox" class="input-checkbox">Cuscuz Marroquino</label>
+          <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number" type="number"
+              min="0" max="50" class="form-control" /></label>
+          <h2>Pratos da Casa</h2>
+          <div class="form-group">
+            <label><input name="prato4" value="prato4" type="checkbox" class="input-checkbox">Panquecas</label>
+            <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number"
+                type="number" min="0" max="50" class="form-control" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label><input name="prato4" value="prato4" type="checkbox" class="input-checkbox">Strogonoff</label>
+            <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number" type="number" min="0" max="50" class="form-control" />
+            </label>
+          </div>
+          <div class="form-group">
+            <label><input name="prato4" value="prato4" type="checkbox" class="input-checkbox">Camusquim</label>
+            <label id="number-label" for="number"> <input placeholder="Quantidade" name="number" id="number"
+                type="number" min="0" max="50" class="form-control" />
+            </label>
+          </div>
+          <div class="form-group">
+            <p>
+              Escolha o tipo de massa para o Camusquim (1 tipo por prato):
+            </p>
+            <ul>
+              <label><input name="tipomassa" value="Penne" type="checkbox" class="input-checkbox1">Penne </label>
+
+              <label><input inline name="tipomassa" value="fusilli" type="checkbox" class="input-checkbox1">Fusilli
+              </label>
+
+              <label><input inline name="tipomassa" value="spaghetti" type="checkbox" class="input-checkbox1">Spaghetti
+              </label>
+
+              <label><input name="tipomassa" value="fettuccine" type="checkbox" class="input-checkbox1">Fettuccine
+              </label>
+
+              <label><input name="tipomassa" value="open-source-community" type="checkbox"
+                  class="input-checkbox1">Capellini </label>
+
+            </ul>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/watch?v=Sq0t-jL3CGg&pp=ygUPbXVzaWNhIHNhbyBqb2Fv" target="_blank">
+              <button class="button" form="form-control" type="submit"> Fazer pedido! </button></a>
+          </div>
+
+    </form>
+  </div>
+
+<!--Rodapé-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  
+  
+  <footer class="footer">
+    <p>Rua dos prazeres, 404 - Currais Novos - RN</p>
+    <p>Localização Google Maps <a href="https://www.google.com.br/maps/place/IFRN+Campus+Currais+Novos/@-6.2531968,-36.536804,17z/data=!3m1!4b1!4m6!3m5!1s0x7b1d5e8709765b9:0x302b8055cbe5d361!8m2!3d-6.2532021!4d-36.5342237!16s%2Fg%2F1pzwbb0bt?entry=ttu" target="_blank"><i class="fas fa-map-marker-alt"></a></i></p>
+
+    <p> Telefone: (00) 1234-5678  <a href="#"><i class="fas fa-phone"></i></p></a>
+
+    <p class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </p>
+  </body>
+</html>

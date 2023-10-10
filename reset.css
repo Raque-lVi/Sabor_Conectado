@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;                  /*margem zero*/
+    padding: 0;                 /*espaçamento zero*/
+    box-sizing: border-box;     /**/
+}
+
+ul {
+    list-style: none; /*sem bolinha nas linhas*/
+}
+
+a{
+    text-decoration: none;/*sem pre-decoração nos textos como link em azul */
+}
+
+.imgFundo{
+    margin: 0;                  /*margem zero*/
+    padding: 0;
+}
